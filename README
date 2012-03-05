@@ -1,0 +1,17 @@
+Plod v0.1
+
+Written by Doug Molineux
+3/5/2012
+
+Plod plods the internet and tries to make sense of feeds. You 
+can try this URL (retrieves a feed a football league feed):
+
+	http://polling.bbc.co.uk/sport/shared/football/as-it-stands/118996114?competitionFilter=118996115
+
+Fedora needs this library to be installed, in order to compile:
+
+	sudo yum install libcurl-devel
+
+To compile:
+
+	gcc -o sample sample.c -l curl
